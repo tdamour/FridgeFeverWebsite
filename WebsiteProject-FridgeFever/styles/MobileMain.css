@@ -1,0 +1,102 @@
+
+*{
+margin-top: 15px;
+padding: 0; 
+margin-bottom:0;
+margin-left:0; 
+margin-right:0; 
+} 
+
+body{ 
+font-family: Arial, Helvetica, sans-serif;
+display: block;
+margin-top:20px;
+margin-bottom:0; 
+margin-right: auto;
+margin-left: auto; 
+width: 1000px;
+height:500px; 
+background-color: #000066;
+} 
+header p {
+color:white;
+background-color:#0000cc;
+font-style:italic; 
+padding-left:15px; 
+
+} 
+
+/*Navigation Bar */ 
+nav ul {
+margin-left: 0;
+margin-bottom: .5em;
+list-style: none;
+padding: .5em 2em 1em 2em;
+background-color:#000066; 
+}
+nav li {
+display:inline;
+font-family: Arial, sans-serif; 
+font-size: 20px; 
+font-weight:bold; 
+border-left: 2px solid #00ccff;
+padding:15px; 
+} 
+nav li a {
+color:#33adff; 
+text-decoration:none;
+padding-right:4em; 
+} 
+nav li a:hover{
+color: yellow; 
+}
+.active li {
+color:white;
+}
+
+#setting{
+padding-top: 100px; 
+}
+
+/*Side : Introduction to the website...*/ 
+#aside {
+background-color:white; 
+float:right; 
+height: 600px;
+width: 400px;
+border:.5em solid #00ccff; 
+}
+#aside p {
+color:black; 
+font-weight:bold;
+padding-left: 10px; 
+padding-top: 25px; 
+} 
+aside h1{
+color: black; 
+text-align: center; 
+} 
+/* Showcase a picture possibly (promo art?)*/ 
+
+#promo{
+
+} 
+section{
+
+
+} 
+section p{
+color:white;
+} 
+
+footer{
+margin-left: 0;
+margin-bottom: .5em;
+list-style: none;
+padding: .5em 2em 1em 0;
+background-color:#000066; 
+clear:both; 
+} 
+footer p{
+color:white;
+text-align:right;} 

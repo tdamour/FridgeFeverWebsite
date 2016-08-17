@@ -1,0 +1,283 @@
+*{
+margin-top: 15px;
+padding: 0; 
+margin-bottom:0;
+margin-left:0; 
+margin-right:0; 
+} 
+
+body{ 
+font-family: Arial, Helvetica, sans-serif;
+display: block;
+margin-top:20px;
+margin-bottom:0; 
+margin-right: auto;
+margin-left: auto; 
+width: 1000px;
+height:500px; 
+background-color: #000066;
+} 
+header p {
+color:white;
+background-color:#0000cc;
+font-style:italic; 
+padding-left:15px; 
+} 
+/*Navigation Bar */ 
+nav ul {
+margin-left: 0;
+margin-bottom: .5em;
+list-style: none;
+padding: .5em 2em 1em 2em;
+background-color:#000066; 
+}
+nav li {
+display:inline;
+font-family: Arial, sans-serif; 
+font-size: 20px; 
+font-weight:bold; 
+border-left: 2px solid #00ccff;
+padding:15px; 
+} 
+nav li a {
+color:#33adff; 
+text-decoration:none;
+padding-right:4em; 
+} 
+nav li a:hover, nav li a:focus{
+color: yellow; 
+}
+nav li a:{
+color: red; 
+}
+/* BreadCrumbs Navigation*/
+
+
+
+#archives{
+background-color:#0000a6; 
+height: 500px;
+width: 400px;
+border:.5em solid #00ccff; 
+float:left; 
+} 
+#archives h2 {
+color:#00ccff;
+font-weight:bold;
+padding-left: 10px; 
+padding-top: 10px;
+text-align:center;
+
+}
+
+#archives p {
+color:#00ccff;
+font-weight:bold;
+padding-left: 10px; 
+padding-top: 10px;
+text-align:center;
+
+
+}
+.list  li  {
+list-style-type: none; 
+list-style:none; 
+padding-right: 24px;
+text-align:center; 
+} 
+
+.list  li a {
+color:#00ccff;
+font-weight:bold; 
+padding-left: 10px; 
+padding-top: 25px; 
+text-decoration:none;  
+} 
+.list  li a:hover{
+color: yellow; 
+}
+.snowball img{
+padding-left:75px; 
+}
+
+
+#comic{
+background-color:#0000a6; 
+height: 1300px;
+width: 1000px;
+border:.5em solid #00ccff; 
+} 
+#comic h2 {
+color:#00ccff;
+font-weight:bold;
+padding-left: 450px; 
+padding-top: 10px;
+}
+.strip{
+padding-left:125px; 
+padding-top: 10px;
+}
+
+.turnLeft{
+padding-left: 20em; 
+} 
+.turnRight{
+float:right; 
+padding-right: 20em; 
+
+} 
+
+#gallery {
+background-color:#0000a6; 
+height: 2800px;
+width: 1000px;
+border:.5em solid #00ccff; 
+} 
+
+#gallery h2  {
+color:#00ccff;
+font-weight:bold;
+text-align: center; 
+
+}
+
+#gallery p{ 
+color: black;
+background-color: white;
+text-align: center; 
+font-style: bold; 
+} 
+
+figcaption{
+color: black;
+background-color: white;
+text-align: center; 
+font-style: bold; 
+padding-right: 2em;  
+}
+
+#showcase img{
+padding-left: 1em; 
+} 
+
+#media {
+background-color:#0000a6; 
+height: 950px;
+width: 1000px;
+border:.5em solid #00ccff; 
+} 
+#media h1  {
+color:#00ccff;
+font-weight:bold;
+text-align: center; 
+
+}
+
+#media p {
+color:#00ccff;
+font-weight:bold; 
+padding-left:5em; 
+}
+#media h2 {
+color:#00ccff;
+font-weight:bold;
+text-align: center; 
+
+}
+
+#media video,object{
+padding-left: 15em; 
+}
+
+#contact{
+background-color:#000066;; 
+float:left; 
+height: 600px;
+width: 400px;
+border:.5em solid #00ccff; 
+} 
+#contact h1{
+text-align:center;
+color:#33adff;
+}
+#contact p {
+color:#33adff; 
+font-weight:bold;
+padding-left: 10px; 
+padding-top: 25px; 
+}
+#contact  a {
+color:white;
+text-decoration: none; 
+}
+#contact a:visited {
+color:yellow;
+}
+#promo_contact img{
+padding-left:75px; 
+}
+
+#Orderform {
+background-color:white;
+border:.5em solid #00ccff; 
+height: 690px; 
+} 
+#Orderform h1{ 
+text-align: center;
+color:#0000a6;
+} 
+#Orderform p{ 
+text-align: center;
+} 
+#Orderform legend{ 
+text-align: center;
+font-weight:bold;
+color: #0000a6; 
+} 
+#Orderform fieldset{
+margin-top: 1em;
+margin-bottom: 1em;
+padding-top: .5em; 
+padding-bottom: 1em; 
+}
+#Orderform label{ 
+float:left; 
+ width: 10em;
+ text-align: right; 
+} 
+#Orderform input, select{
+width: 15em;
+margin-left: 0.5em;
+margin-bottom: 0.5em; 
+} 
+
+#Orderform br{
+clear: both; 
+}
+
+#button{
+width: 10em;
+} 
+.order{
+color:#0000a6;
+font-size: 150%; 
+font-style:italic;
+}
+
+footer {
+margin-left: 0;
+margin-bottom: .5em;
+list-style: none;
+padding: .5em 2em 1em 0;
+background-color:#000066; 
+clear:both; 
+} 
+footer p{
+color:white;
+text-align:right;} 
+
+footer a {
+color:white; 
+text-decoration:none; 
+}
+
